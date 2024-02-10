@@ -10,7 +10,7 @@
   "routes": [
     {
       "src": "./(.*)",
-      "use": "/",
+      "dest": "src/main.ts",
       "methos": ["GET", "POST", "PUT", "DELETE"]
     }
   ]
