@@ -9,7 +9,7 @@
   ],
   "routes": [
     {
-      "src": "./(.*",
+      "src": "./(.*)",
       "use": "/",
       "methos": ["GET", "POST", "PUT", "DELETE"]
     }
